@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+.neon-text {
+    color: #39ff14;
+    text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #00ff00, 0 0 80px #00ff00;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.neon-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+    transition: 0.3s ease;
+}
+
+.neon-link:hover {
+    text-shadow: 0 0 15px #39ff14, 0 0 25px #00ff00;
+}
+
+.game-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+.neon-button {
+    background-color: #39ff14;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+    text-shadow: none;
+    transition: background-color 0.3s ease;
+}
+
+.neon-button:hover {
+    background-color: #00ff00;
+}
+
+.neon-input {
+    background-color: #000;
+    border: 1px solid #39ff14;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px #39ff14;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+}
+.neon-image {
+    width: 80%;  
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;  
+}
